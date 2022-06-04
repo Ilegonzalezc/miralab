@@ -1,2 +1,2 @@
 # miralab
-Frontal de una p[agina web para un laboratorio 
+Frontal de una página web para un laboratorio 
