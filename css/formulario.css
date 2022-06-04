@@ -1,0 +1,74 @@
+/* ----- Estilo del formulario ----- */
+
+.formulario {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form_registro {
+  margin:auto;
+  width: 95%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid gainsboro;
+}
+
+.form_label,
+.form_input {
+  display: block;
+}
+
+.form_label {
+  width: 30%;
+}
+
+.form_input {
+  width: 70%;
+  padding: 10px;
+
+}
+
+textarea {
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+.cont_label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.formulario .asterisco {
+  color: red;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.formulario .privacidad {
+  position: relative;
+  right: 5px;
+}
+
+formulario input:focus {
+  outline: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.formulario .boton {
+  padding: 10px;
+  background: #3E2E6F;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form_titulo{
+  margin: 0;
+}

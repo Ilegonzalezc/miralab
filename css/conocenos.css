@@ -1,0 +1,45 @@
+
+
+hr{
+    border: 1px solid gainsboro;
+}
+
+.conocenos p{
+
+    display: block;
+    width: 500px;
+    color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.about h2 {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Escritorio normales*/
+@media (min-width: 1024px) { 
+
+    .about{
+
+        margin-top: 60px;     
+
+    }
+
+    .about h2 {
+        line-height: 128px;
+    }
+    
+
+
+}
+    

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/5d1facf5a3.js" crossorigin="anonymous"></script>
+    
+
+    <link rel="stylesheet" href="../css/fontello.css">
+    <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/cabecera.css">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <title>Inicio|Presupuesto</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="contenedor">
+
+            <h1>Laboratorio Miralab</h1>
+
+            <input type="checkbox" class="menu-bar" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+
+            <nav class="menu">
+
+                <a href="../index.html">Inicio</a>
+                <a href="productos.html">Productos</a>
+                <a class="enlace" href="presupuesto.html">Presupuesto</a>
+                <a href="contacto.html">Contacto</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="banner">
+
+            <img class="img_banner" src="../images/laboratory_banner_3.jpeg" alt="banner">
+
+
+            <div class="contenedor sub_logo">
+
+                <h2 class="subtitulo">Laboratorios de análisis clínicos</h2>
+
+                <img class="img_logo" src="../images/logo.png" alt="logo">
+
+            </div>
+
+        </section>
+
+        <section class="formulario">
+
+            <div class="contenedor">
+
+                <h2 class="seccion_titulo">Formulario de contacto</h2>
+
+
+                <form class="form_registro">
+
+                    <h3 class="form_titulo">Datos del paciente</h3>
+
+                    <div class="cont_label">
+                        <label for="nombre" class="form_label">Nombre<span class="asterisco">*</span></label>
+                        <input type="text" name="nombre" id="nombre" class="form_input" required>
+                    </div>
+
+                    <div class="cont_label">
+                        <label for="email" class="form_label">Correo<span class="asterisco">*</span></label>
+                        <input type="email" name="email" id="email" class="form_input" placeholder="example@gmail.com" required>
+                    </div>
+
+                    <div class="cont_label">
+                        <label for="telefono" class="form_label">Teléfono<span class="asterisco">*</span></label>
+                        <input type="tel" name="telefono" id="telefono" class="form_input" pattern="[0-9]{9}"
+                            title="Introduce un número de teléfono de 9 digitos" required maxlength="9">
+                    </div>
+
+                    <label for="informacion" class="form_info">Solicite más información</label>
+                    <textarea rows="6" cols="40" name="info" id="informacion"></textarea>
+
+                    <input type="submit" name="enviar" class="boton" value="Enviar">
+
+                    <label for="privacidad"><input type="checkbox" name="privacidad" id="privacidad" class="privacidad"
+                            value="privacidad" required>Acepto la política de privacidad</label>
+                </form>
+
+            </div>
+
+        </section>
+
+        
+    </main>
+
+    <footer>
+
+        <div class="contenedor-footer">
+
+            <div class="sociales">
+                <a class="item" href="https://www.facebook.com/Laboratorio-Miralab-100909575413123"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a class="item" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="item" href="#"><i class="fab fa-twitter-square"></i></a>
+            </div>
+    
+            <div class="direccion">
+                <p>Laboratorio Miralab &copy; 2021</p>
+                <p>Todos los Derechos Reservados</p>
+                <p>Calle Hidalgo No.111 entre calle Zamora y Abasolo<br>CP 94240 Veracruz, México</p>
+            </div>
+
+        </div>
+        
+    </footer>
+
+</body>
+
+</html>

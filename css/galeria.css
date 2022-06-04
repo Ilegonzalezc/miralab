@@ -1,0 +1,33 @@
+.contenedor-galeria{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.galeria-img{
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    filter: brightness(70%);   
+}
+
+.galeria-img:hover{
+    filter: brightness(100%);
+}
+
+.galeria{
+    width: 320px;
+    margin-bottom: 30px;
+}
+
+.galeria p{
+    color: #0fb1a9;
+    font-weight: bold;
+    
+}
