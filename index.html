@@ -1,265 +1,333 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <script src="https://kit.fontawesome.com/5d1facf5a3.js" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="css/fontello.css">
-    <link rel="stylesheet" href="css/banner.css">
-    <link rel="stylesheet" href="css/cabecera.css">
-    <link rel="stylesheet" href="css/blog.css">
-    <link rel="stylesheet" href="css/conocenos.css">
-    <link rel="stylesheet" href="css/interesante.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/footer.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main_home.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <title>Miralab Laboratorio</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-container-1">
+        <span class="title">Laboratorio Miralab</span>
 
-</head>
-
-<body>
-
-    <header>
-
-        <div class="contenedor">
-
-            <h1>Laboratorios Miralab</h1>
-
-            <input type="checkbox" class="menu-bar" id="menu-bar">
-            <label class="icon-menu" for="menu-bar"></label>
-
-            <nav class="menu">
-
-                <a class="enlace" href="../index.html">Inicio</a>
-                <a href="views/productos.html">Productos</a>
-                <a href="views/presupuesto.html">Presupuesto</a>
-                <a href="views/contacto.html">Contacto</a>
-
-            </nav>
-
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li>
+              <a href="index_2.html" class="main-nav-link hear">Inicio</a>
+            </li>
+            <li>
+              <a href="views/productos_2.html" class="main-nav-link"
+                >Productos</a
+              >
+            </li>
+            <li>
+              <a href="views/presupuesto_2.html" class="main-nav-link"
+                >Presupuesto</a
+              >
+            </li>
+            <li>
+              <a href="views/contacto_2.html" class="main-nav-link">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container header-container-2">
+        <div class="header-container-2-inner">
+          <h1 class="heading-primary">
+            Servicio y calidad para el diagnóstico de tu salud
+          </h1>
+          <p>Todos los análisis clínicos a tú alcance</p>
+          <a href="#" class="btn btn-round">Conócenos</a>
         </div>
-
+      </div>
     </header>
+    <!-- END HEADER -->
 
+    <!-- MAIN -->
     <main>
+      <section class="section-about-us">
+        <div class="container">
+          <h2 class="heading-secondary center-text margin-top-cero">
+            Conoce un poco más de nostros
+          </h2>
+        </div>
+        <div class="container grid grid--2-cols">
+          <!-- Quienes somos -->
+          <div class="content">
+            <h3 class="heading-tertiary">¿Quiénes somos?</h3>
+            <p class="content-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              atque necessitatibus repudiandae pariatur dicta architecto minus
+              incidunt optio quam eaque nam, dolor explicabo. Distinctio,
+              dignissimos laborum delectus omnis nihil debitis.
+            </p>
+          </div>
 
-        <section class="banner">
+          <div class="img-box">
+            <img
+              src="images/about.avif"
+              alt="Análisis clinico"
+              class="img-about"
+            />
+          </div>
 
-            <img class="img_banner" src="images/laboratory_banner_1.jpeg" alt="banner">
+          <!-- Nuestra misión -->
+          <div class="img-box">
+            <img
+              src="images/mision.jpg"
+              alt="Análisis clinico"
+              class="img-about"
+            />
+          </div>
 
-            <div class="contenedor">
-
-                <h2 class="subtitulo">Laboratorios de análisis clínicos</h2>
-
-                <img class="img_logo" src="images/logo.png" alt="logo">
-
+          <div class="content">
+            <h3 class="heading-tertiary">Nuestra Misión</h3>
+            <p class="content-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              atque necessitatibus repudiandae pariatur dicta architecto minus
+              incidunt optio quam eaque nam, dolor explicabo. Distinctio,
+              dignissimos laborum delectus omnis nihil debitis.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-testimonial">
+        <div class="container bg-testimonial">
+          <div class="grid grid--3-cols">
+            <img
+              class="img-testimonial"
+              src="images/customers.jpg"
+              alt="Personas sentadas en una silla"
+            />
+            <div class="testimonial-box">
+              <h2>Mi laboratorio clínico favorito</h2>
+              <blockquote class="testimonial-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                repellat at, nesciunt quia cum minima ipsum culpa totam sapiente
+                recusandae earum debitis doloribus in quasi voluptatibus!
+              </blockquote>
+              <p class="testimonial-author">&mdash; Mary y Sarah Johnson</p>
             </div>
+          </div>
+        </div>
+      </section>
 
-        </section>
+      <section class="section-plan">
+        <div class="container">
+          <h2 class="heading-secondary center-text">
+            Entérarte de todos los servicios que ponemos a tu alcance.
+          </h2>
+        </div>
+        <div class="container grid grid--3-cols">
+          <div class="test-plan">
+            <header class="plan-header">
+              <p class="plan-name">PCR en tiempo real</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon name="hourglass" class="icon"></ion-icon>
+                <span>30M</span>
+              </li>
+              <li class="list-item">
+                <ion-icon name="cash" class="icon"></ion-icon>
+                <span>200 MXN</span>
+              </li>
 
-        <section class="conocenos">
-
-            <div class="contenedor">
-
-                <div class="about">
-
-                    <h2 class="seccion_titulo">¿Quiénes somos?</h2>
-
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae perspiciatis delectus nihil est
-                        iure
-                        minima magni minus quasi praesentium vero natus, quis placeat unde ullam neque, aspernatur
-                        voluptates
-                        esse eius. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam dolorum consequuntur
-                        ab
-                        ipsum reiciendis est similique voluptatem, tempora a harum eius esse ullam nisi sunt. Aliquid
-                        saepe
-                        assumenda dignissimos eveniet!</p>
-
-                </div>
-
-                <hr>
-
-                <div class="about">
-
-                    <h2 class="seccion_titulo">Nuestra misión</h2>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam molestias sapiente facilis
-                        molestiae
-                        omnis ab iure vitae numquam commodi quasi possimus inventore dolores adipisci debitis, quia, aliquam
-                        tempora, quis recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic assumenda
-                        expedita illum quidem eius sint dolore ipsa debitis dolorum architecto veniam, tenetur ratione modi
-                        quae quia sapiente deleniti eum ducimus?</p>
-
-                </div>
-
-                <hr>
-
+              <li class="list-item">
+                <ion-icon name="alert" class="icon"></ion-icon>
+                <span>Llegar 10 minutos antes</span>
+              </li>
+            </ul>
+            <div class="plan-sing-up">
+              <a href="#" class="btn btn-round">Sacar una cita</a>
             </div>
+          </div>
 
-        </section>
+          <div class="test-plan">
+            <header class="plan-header">
+              <p class="plan-name">Papanicolau</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon name="hourglass" class="icon"></ion-icon>
+                <span>Al momento</span>
+              </li>
+              <li class="list-item">
+                <ion-icon name="cash" class="icon"></ion-icon>
+                <span>100 MXN</span>
+              </li>
 
-
-        <section class="blog">
-
-            <div class="contenedor">
-
-                <h3>Entérarte de todos los servicios que ponemos a tu alcance. <a href="views/productos.html">Conoce
-                        más</a></h3>
-
-                <article>
-
-                    <div class="tarjeta">
-
-                        <h4>Prueba diagnóstica PCR en tiempo real</h4>
-
-                        <div class="article_1-3">
-
-                            <img src="images/covid.jpg" alt title="Prueba de Covid">
-
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere velit sunt, officiis
-                                eveniet
-                                aspernatur ad quod. Incidunt corporis minus deleniti. Reprehenderit deserunt harum
-                                impedit
-                                non et facere eum quos quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Similique doloremque praesentium assumenda est quidem soluta magnam, perspiciatis
-                                tenetur at
-                                facilis velit totam ipsum, eligendi, natus obcaecati quo quam ad nihil.</p>
-                        </div>
-
-                    </div>
-
-                </article>
-
-                <article>
-                    <div class="tarjeta">
-
-                        <h4>Prueba de Papanicolaou</h4>
-
-                        <div class="article_1-3">
-
-                            <img src="images/papanicolau.jpg" alt title="Prueba de Papanicolaou">
-
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consectetur magni eveniet
-                                quibusdam, aut est, error iusto molestiae asperiores voluptatum excepturi. Voluptas
-                                impedit,
-                                nostrum deleniti aperiam repellendus illum voluptatem soluta! Lorem ipsum dolor sit amet
-                                consectetur, adipisicing elit. Deserunt nulla incidunt dolores eius similique architecto
-                                veritatis, quasi iusto a deleniti sequi cumque maxime doloremque. </p>
-
-                        </div>
-
-                    </div>
-
-
-
-                </article>
-
-                <article>
-
-                    <div class="tarjeta">
-
-                        <h4>Prueba antigeno CA 15-3 de Mama </h4>
-
-                        <div class="article_1-3">
-
-                            <img src="images/mama.webp" alt title="Prueba antigeno CA 15-3 de Mama">
-
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptates quis explicabo
-                                maiores neque corrupti dolorem odio asperiores accusamus quos eius soluta ducimus,
-                                sapiente
-                                obcaecati nam ipsam illum quo quae. Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Eligendi quis, earum inventore ullam rerum suscipit officiis. Quo eaque, soluta,
-                                ipsam
-                                id, saepe deleniti tempora a enim qui recusandae placeat amet!</p>
-
-                        </div>
-
-                    </div>
-
-                </article>
-
+              <li class="list-item">
+                <ion-icon name="alert" class="icon"></ion-icon>
+                <span>Llegar 10 minutos antes</span>
+              </li>
+            </ul>
+            <div class="plan-sing-up">
+              <a href="#" class="btn btn-round">Sacar una cita</a>
             </div>
+          </div>
 
-        </section>
+          <div class="test-plan">
+            <header class="plan-header">
+              <p class="plan-name">Prueba antígeno de mama</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon name="hourglass" class="icon"></ion-icon>
+                <span>24H</span>
+              </li>
+              <li class="list-item">
+                <ion-icon name="cash" class="icon"></ion-icon>
+                <span>500 MXN</span>
+              </li>
 
-        <section class="interesante">
-
-            <h3>Te puede interesar...</h3>
-
-            <div class="container-interesante">
-
-                <div class="columna_1-3">
-
-                    <div class="imagen-contenedor">
-                        <img src="images/Edad-fertil-de-la-mujer.jpg" alt title="">
-
-                    </div>
-                    <h4 class="titulo-contenido">Edad fértil: ¿hasta cuándo puedo quedarme embarazada?</h4>
-
-                    <div class="post-contenido">
-                        <a href="#">leer más</a>
-                    </div>
-
-                </div>
-                <div class="columna_1-3">
-
-                    <div class="imagen-contenedor">
-                        <img src="images/congelar-ovulos.jpg" alt title="">
-
-                    </div>
-                    <h4 class="titulo-contenido">¿Por qué y cuándo congelar tus óvulos?</h4>
-
-                    <div class="post-contenido">
-                        <a href="#">leer más</a>
-                    </div>
-
-                </div>
-
-                <div class="columna_1-3">
-
-                    <div class="imagen-contenedor">
-                        <img src="images/FIV-de-moda.jpg" alt title="">
-
-                    </div>
-                    <h4 class="titulo-contenido">La Fecundación In Vitro ICSI de moda</h4>
-
-                    <div class="post-contenido">
-                        <a href="#">leer más</a>
-                    </div>
-
-                </div>
-
+              <li class="list-item">
+                <ion-icon name="alert" class="icon"></ion-icon>
+                <span>Llegar 10 minutos antes</span>
+              </li>
+            </ul>
+            <div class="plan-sing-up">
+              <a href="#" class="btn btn-round">Sacar una cita</a>
             </div>
+          </div>
+        </div>
+      </section>
 
-        </section>
-
-    </main>
-
-    <footer>
-
-        <div class="contenedor-footer">
-
-            <div class="sociales">
-                <a class="item" href="https://www.facebook.com/Laboratorio-Miralab-100909575413123"><i
-                        class="fab fa-facebook-f"></i></a>
-                <a class="item" href="#"><i class="fab fa-instagram"></i></a>
-                <a class="item" href="#"><i class="fab fa-twitter-square"></i></a>
-            </div>
-
-            <div class="direccion">
-                <p>Laboratorio Miralab &copy; 2021</p>
-                <p>Todos los Derechos Reservados</p>
-                <p>Calle Hidalgo No.111 entre calle Zamora y Abasolo<br>CP 94240 Veracruz, México</p>
-            </div>
-
+      <section class="section-blog">
+        <div class="container center-text">
+          <h2 class="heading-secondary margin-top-cero">
+            Te puede interesar...
+          </h2>
         </div>
 
+        <div class="container grid grid--3-cols">
+          <div class="card-img">
+            <img
+              src="images/Edad-fertil-de-la-mujer.jpg"
+              alt="Una mujer en la computadora"
+              class="img"
+            />
+            <div class="card-content">
+              <h4 class="card-title">
+                ¿Hasta cuándo puedo quedarme embarazada?
+              </h4>
+              <a class="btn btn-center" href="#">Leer más</a>
+            </div>
+          </div>
+          <div class="card-img">
+            <img
+              src="images/congelar-ovulos.jpg"
+              alt="Una mujer con una mochila"
+              class="img"
+            />
+            <div class="card-content">
+              <h4 class="card-title">¿Por qué y cuándo congelar tus óvulos?</h4>
+              <a class="btn btn-center" href="#">Leer más</a>
+            </div>
+          </div>
+          <div class="card-img">
+            <img
+              src="images/FIV-de-moda.jpg"
+              alt="Una mujer embarazada"
+              class="img"
+            />
+            <div class="card-content">
+              <h4 class="card-title">La Fecundación in Vitro ICSI de moda</h4>
+              <a class="btn btn-center" href="#">Leer más</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- END MAIN -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img
+              src="images/logo_miralab.jpg"
+              alt="Miralab logo"
+              class="logo"
+            />
+          </a>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2022 Miralab, Inc. Todos los Derechos Reservados
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contacto</p>
+          <address class="contacts">
+            <p class="address">
+              Calle Hidalgo No.111 entre calle Zamora y Abasolo CP 94240
+              Veracruz, México
+            </p>
+            <p>
+              <a class="footer-link" href="tel:999-999-9999">999-999-9999</a
+              ><br />
+              <a class="footer-link" href="mailto:miralab@gmail.com"
+                >miralab@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Cuenta</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Crear una cuenta</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Compañia</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">¿Quiénes somos?</a></li>
+            <li><a class="footer-link" href="#">Nuestra Misión</a></li>
+            <li><a class="footer-link" href="#">Servicios</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Recursos</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Ayuda</a></li>
+            <li><a class="footer-link" href="#">Terminos y Privacidad</a></li>
+          </ul>
+        </nav>
+      </div>
     </footer>
-
-</body>
-
+    <!-- END FOOTER -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
 </html>
