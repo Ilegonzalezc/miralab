@@ -1,142 +1,184 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/main_producto.css" />
+    <link rel="stylesheet" href="../css/galeria.css">
+    <link rel="stylesheet" href="../css/footer.css" />
+    <title>Productos Miralab</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-container-1">
+        <span class="title">Laboratorio Miralab</span>
 
-    <script src="https://kit.fontawesome.com/5d1facf5a3.js" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="../css/fontello.css">
-    <link rel="stylesheet" href="../css/banner.css">
-    <link rel="stylesheet" href="../css/cabecera.css">
-    <link rel="stylesheet" href="../css/galeria.css" />
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/footer.css">
-
-    <title>Inicio|Productos</title>
-
-</head>
-
-<body>
-
-    <header>
-
-        <div class="contenedor">
-
-            <h1>Laboratorio Miralab</h1>
-
-            <input type="checkbox" class="menu-bar" id="menu-bar">
-            <label class="icon-menu" for="menu-bar"></label>
-
-            <nav class="menu">
-
-                <a href="../index.html">Inicio</a>
-                <a class="enlace" href="productos.html">Productos</a>
-                <a href="presupuesto.html">Presupuesto</a>
-                <a href="contacto.html">Contacto</a>
-
-            </nav>
-
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li>
+              <a href="../index_2.html" class="main-nav-link">Inicio</a>
+            </li>
+            <li>
+              <a href="productos_2.html" class="main-nav-link hear"
+                >Productos</a
+              >
+            </li>
+            <li>
+              <a href="presupuesto_2.html" class="main-nav-link">Presupuesto</a>
+            </li>
+            <li>
+              <a href="contacto_2.html" class="main-nav-link">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container header-container-2">
+        <div class="header-container-2-inner">
+          <h1 class="heading-primary">
+            Servicio y calidad para el diagnóstico de tu salud
+          </h1>
+          <p>Todos los análisis clínicos a tú alcance</p>
+          <a href="#" class="btn btn-round">Conócenos</a>
         </div>
-
+      </div>
     </header>
+    <!-- END HEADER -->
 
+    <!-- MAIN -->
     <main>
+      <div class="container">
+        <div class="section-gallery grid grid--3-cols">
+          <div class="gallery-item">
+            <img src="../images/gallery-1.jpg" alt="Prueba de ETS" class="gallery-img" />
+            <h4 class="card-title">Pruebas ETS – Enfermedades de Transmisión Sexual</h4>
+          <p>Detección de Enfermedades de Transmisión Sexual (VIH, Hepatitis B, Hepatitis C, Sífilis)</p>
+          <a href="#" class="btn">Más Info</a>
+          </div>
 
-        <section class="banner">
+          <div class="gallery-item">
+            <img src="../images/gallery-2.jpg" alt="Análisis Microbiota Intestinal" class="gallery-img" />
+            <h4 class="card-title">Análisis de Microbiota Intestinal y Vaginal</h4>
+          <p>Estatus de protección inmunitaria, mucosa y pH del medio intestinal.</p>
+          <a href="#" class="btn">Más Info</a>
+          </div>
 
-            <img class="img_banner" src="../images/laboratory_banner_2.jpeg" alt="banner">
+          <div class="gallery-item">
+             <img src="../images/gallery-3.jpg" alt="Pruebas Diagnósticas" class="gallery-img" />
+            <h4 class="card-title">Pruebas Diagnósticas</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi incidunt</p>
+          <a href="#" class="btn">Más Info</a>
+          </div>
+          
+          <div class="gallery-item">
+            <img src="../images/gallery-4.jpg" alt="Seminograma" class="gallery-img" />
+           <h4 class="card-title">Seminograma REM – Espermiograma</h4>
+         <p>Análisis de Semen. Seminograma. Seminograma REM. Fragmentación ADN espermático.</p>
+         <a href="#" class="btn">Más Info</a>
+         </div>
 
+         <div class="gallery-item">
+          <img src="../images/gallery-5.jpg" alt="Detección del VPH" class="gallery-img" />
+         <h4 class="card-title">Detección del VPH (Virus de Papiloma Humano)</h4>
+       <p>Detección del VPH (Virus de Papiloma Humano)</p>
+       <a href="#" class="btn">Más Info</a>
+       </div>
 
-            <div class="contenedor">
-
-                <h2 class="subtitulo">Laboratorios de análisis clínicos</h2>
-
-                <img class="img_logo" src="../images/logo.png" alt="logo">
-
-            </div>
-
-        </section>
-
-        <section class="productos">
-
-            <div class="contenedor">
-
-                <h2 class="seccion_titulo">Oferta de Analisis Clínicos</h2>
-
-                <div class="contenedor-galeria">
-
-                    <div class="galeria">
-                        <img src="../images/analisis_uno.jpg" alt title="PCR" class="galeria-img">
-
-                        <p>Prueba de PCR en tiempo real</p>
-
-                    </div>
-
-                    <div class="galeria">
-
-                        <img src="../images/analisis_dos.jpg" alt title="analisis" class="galeria-img">
-
-                        <p>Prueba de PCR en tiempo real</p>
-
-                    </div>
-
-                    <div class="galeria">
-                        <img src="../images/analisis_tres.jpg" alt title=" Glucosa" class="galeria-img">
-                        <p>Análisis de glucosa</p>
-
-                    </div>
-
-                    <div class="galeria">
-                        <img src="../images/analisis_cuatro.jpg" alt title="Hemograma" class="galeria-img">
-                        <p>Hemograma</p>
-
-                    </div>
-
-                    <div class="galeria">
-                        <img src="../images/analisis_cinco.jpg" alt title="analisis" class="galeria-img">
-                        <p>Eucolitos</p>
-
-                    </div>
-
-                    <div class="galeria">
-
-                        <img src="../images/analisis_seis.jpeg" alt title="analisis" class="galeria-img">
-                        <p>Análisis</p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-    <footer>
-
-        <div class="contenedor-footer">
-
-            <div class="sociales">
-                <a class="item" href="https://www.facebook.com/Laboratorio-Miralab-100909575413123"><i
-                        class="fab fa-facebook-f"></i></a>
-                <a class="item" href="#"><i class="fab fa-instagram"></i></a>
-                <a class="item" href="#"><i class="fab fa-twitter-square"></i></a>
-            </div>
-
-            <div class="direccion">
-                <p>Laboratorio Miralab &copy; 2021</p>
-                <p>Todos los Derechos Reservados</p>
-                <p>Calle Hidalgo No.111 entre calle Zamora y Abasolo<br>CP 94240 Veracruz, México</p>
-            </div>
-
+       <div class="gallery-item">
+        <img src="../images/gallery-6.webp" alt="Prueba Marcadores tumorales" class="gallery-img" />
+       <h4 class="card-title">Pruebas Marcadores tumorales</h4>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, corporis quidem</p>
+     <a href="#" class="btn">Más Info</a>
+     </div>
         </div>
+      </div>
+    </main>
+    <!-- END MAIN -->
 
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img
+              src="../images/logo_miralab.jpg"
+              alt="Miralab logo"
+              class="logo"
+            />
+          </a>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2022 Miralab, Inc. Todos los Derechos Reservados
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contacto</p>
+          <address class="contacts">
+            <p class="address">
+              Calle Hidalgo No.111 entre calle Zamora y Abasolo CP 94240
+              Veracruz, México
+            </p>
+            <p>
+              <a class="footer-link" href="tel:999-999-9999">999-999-9999</a
+              ><br />
+              <a class="footer-link" href="mailto:miralab@gmail.com"
+                >miralab@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Cuenta</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Crear una cuenta</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Compañia</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">¿Quiénes somos?</a></li>
+            <li><a class="footer-link" href="#">Nuestra Misión</a></li>
+            <li><a class="footer-link" href="#">Servicios</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Recursos</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Ayuda</a></li>
+            <li><a class="footer-link" href="#">Terminos y Privacidad</a></li>
+          </ul>
+        </nav>
+      </div>
     </footer>
-
-</body>
-
+    <!-- END FOOTER -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
 </html>
