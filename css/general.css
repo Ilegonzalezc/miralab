@@ -8,13 +8,14 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+body, a {
   margin: 0;
   font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
 }
+
 
 blockquote,
 p,
