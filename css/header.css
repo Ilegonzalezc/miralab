@@ -1,0 +1,74 @@
+.header {
+  height: 100vh;
+  position: relative;
+
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.4),
+      rgba(34, 34, 34, 0.4)
+    ),
+    url(../images/laboratory_banner_1.jpeg);
+  background-size: cover;
+  color: #fff;
+}
+
+/***********************/
+/* NAVIGATION */
+/***********************/
+
+.header-container-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 4.8rem;
+  position: fixed;
+  width: 100%;
+}
+.title {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.hear:visited,
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #0fb1a9;
+}
+
+.header-container-2 {
+  position: absolute;
+
+  /* In relation to PARENT size */
+  left: 50%;
+  top: 50%;
+
+  /* In relation to ELEMENT size */
+  transform: translate(-50%, -50%);
+}
+
+.header-container-2-inner {
+  width: 60%;
+}
+
+p {
+  font-size: 2.4rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
