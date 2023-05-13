@@ -8,20 +8,18 @@
 .cta {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  background-color: #e67e22;
+  background-color: #e7f7f6;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.015);
   border-radius: 11px;
 
-  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  background-image: linear-gradient(to right bottom, #b7e8e5, #e7f7f6);
   overflow: hidden;
 }
 .cta-text-box {
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
-  color: #45260a;
 }
 
 .cta .heading-secondary {
-  color: #45260a;
   margin-bottom: 3.2rem;
 }
 
@@ -34,19 +32,19 @@
 .cta-img-box {
   background-image: linear-gradient(
       to right bottom,
-      rgba(235, 151, 78, 0.3),
-      rgba(230, 125, 34, 0.3)
+      rgba(183, 232, 229, 0.1),
+      rgba(231, 247, 246, 0.3)
     ),
-    url("../content/img/eating.jpg");
+    url("../images/mujer-al-telefono.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .cta-form {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 3.2rem;
   row-gap: 2.4rem;
+  /* grid-template-columns: 1fr 1fr; */
+  /* column-gap: 3.2rem; */
 }
 
 .cta-form label {
@@ -55,7 +53,7 @@
   font-weight: 500;
   margin-bottom: 1.2rem;
 }
-.cta-form input,
+.cta-form input[name="info-paciente"],
 .cta-form select {
   width: 100%;
   padding: 1.2rem;
@@ -74,4 +72,9 @@
 .cta *:focus {
   outline: none;
   box-shadow: 0 0 0 0.3rem rgba(253, 242, 233, 0.5);
+}
+
+.btn--form {
+  width: 15rem;
+  height: 4rem;
 }

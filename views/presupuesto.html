@@ -65,9 +65,10 @@
             
             <form action="#" class="cta-form">
               <div>
-                <label for="full-name">Nombre <span class="asterisco">*</span></label>
+                <label for="full-name">Nombre y apellidos <span class="asterisco">*</span></label>
                 <input
                   id="name"
+                  name="info-paciente"
                   type="text"
                   placeholder="Nombre y apellidos"
                   required
@@ -78,6 +79,7 @@
                 <label for="email">Correo <span class="asterisco">*</span></label>
                 <input
                   id="email"
+                  name="info-paciente"
                   type="email"
                   placeholder="some@example.com"
                   required
@@ -88,6 +90,7 @@
                 <label for="telf">Teléfono<span class="asterisco">*</span></label>
                 <input
                   id="telef"
+                  name="info-paciente"
                   type="tel"
                   pattern="[0-9]{9}"
                   title="Introduce un número de teléfono de 9 digitos"
@@ -104,7 +107,7 @@
               <div>         
             <textarea
               rows="6"
-              cols="40"
+              cols="80"
               name="info"
               id="informacion"
             ></textarea>
@@ -130,7 +133,7 @@
           <div
             class="cta-img-box"
             role="img"
-            aria-label="Woman enjoying food"
+            aria-label="Mujer al teléfono"
           ></div>
         </div>
       </section>
