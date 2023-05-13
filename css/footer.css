@@ -3,6 +3,10 @@
   border-top: 1px solid #eee;
 }
 
+.footer p {
+  font-size: 1.9rem;
+}
+
 .grid--footer {
   grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }

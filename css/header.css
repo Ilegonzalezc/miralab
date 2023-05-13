@@ -1,14 +1,48 @@
 .header {
-  height: 100vh;
+  height: 50vh;
   position: relative;
-
-  background-image: linear-gradient(
-      rgba(34, 34, 34, 0.4),
-      rgba(34, 34, 34, 0.4)
-    ),
-    url(../images/laboratory_banner_1.jpeg);
   background-size: cover;
   color: #fff;
+}
+
+.header-banner-1 {
+
+  background-image: linear-gradient(
+    rgba(34, 34, 34, 0.4),
+    rgba(34, 34, 34, 0.4)
+  ),
+  url(../images/laboratory_banner_1.jpeg);
+
+}
+
+.header-banner-2 {
+
+  background-image: linear-gradient(
+    rgba(34, 34, 34, 0.4),
+    rgba(34, 34, 34, 0.4)
+  ),
+  url(../images/laboratory_banner_2.webp);
+
+}
+
+.header-banner-3 {
+
+  background-image: linear-gradient(
+    rgba(34, 34, 34, 0.4),
+    rgba(34, 34, 34, 0.4)
+  ),
+  url(../images/laboratory_banner_3.webp);
+
+}
+
+.header-banner-4 {
+
+  background-image: linear-gradient(
+    rgba(34, 34, 34, 0.4),
+    rgba(34, 34, 34, 0.4)
+  ),
+  url(../images/laboratory_banner_4.jpg);
+
 }
 
 /***********************/
