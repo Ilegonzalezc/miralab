@@ -59,83 +59,90 @@
       <section class="section-cta">
         <div class="container">
           <div class="cta">
-          <div class="cta-text-box">
-            <h2 class="heading-secondary">Obten tu cita!</h2>
-            <p>Datos del paciente</p>
-            
-            <form action="#" class="cta-form">
-              <div>
-                <label for="full-name">Nombre y apellidos <span class="asterisco">*</span></label>
-                <input
-                  id="name"
-                  name="info-paciente"
-                  type="text"
-                  placeholder="Nombre y apellidos"
-                  required
-                />
-              </div>
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Obten tu cita!</h2>
+              <p>Datos del paciente</p>
 
-              <div>
-                <label for="email">Correo <span class="asterisco">*</span></label>
-                <input
-                  id="email"
-                  name="info-paciente"
-                  type="email"
-                  placeholder="some@example.com"
-                  required
-                />
-              </div>
+              <form action="#" class="cta-form">
+                <div>
+                  <label for="name"
+                    >Nombre y apellidos <span class="asterisco">*</span></label
+                  >
+                  <input
+                    id="name"
+                    name="info-paciente"
+                    type="text"
+                    placeholder="Nombre y apellidos"
+                    required
+                  />
+                </div>
 
-              <div>
-                <label for="telf">Teléfono<span class="asterisco">*</span></label>
-                <input
-                  id="telef"
-                  name="info-paciente"
-                  type="tel"
-                  pattern="[0-9]{9}"
-                  title="Introduce un número de teléfono de 9 digitos"
-                  required
-                  maxlength="9"
-                />
-              </div>
+                <div>
+                  <label for="email"
+                    >Correo <span class="asterisco">*</span></label
+                  >
+                  <input
+                    id="email"
+                    name="info-paciente"
+                    type="email"
+                    placeholder="some@example.com"
+                    required
+                  />
+                </div>
 
-              <div>
-                <label for="informacion" class="form_info">Solicite más información</label
-              >
-              </div>
+                <div>
+                  <label for="telf"
+                    >Teléfono<span class="asterisco">*</span></label
+                  >
+                  <input
+                    id="telf"
+                    name="info-paciente"
+                    type="tel"
+                    pattern="[0-9]{9}"
+                    title="Introduce un número de teléfono de 9 digitos"
+                    required
+                    maxlength="9"
+                  />
+                </div>
 
-              <div>         
-            <textarea
-              rows="6"
-              cols="80"
-              name="info"
-              id="informacion"
-            ></textarea>
-              </div>
+                <div>
+                  <label for="informacion" class="form_info"
+                    >Solicite más información</label
+                  >
+                </div>
 
-            <div>
-              <label for="privacidad"
-              ><input
-                type="checkbox"
-                name="privacidad"
-                id="privacidad"
-                class="privacidad"
-                value="privacidad"
-                required
-              />Acepto la política de privacidad</label
-            >
+                <div>
+                  <textarea
+                    rows="6"
+                    cols="80"
+                    name="info"
+                    id="informacion"
+                  ></textarea>
+                </div>
+
+                <div>
+                  <label for="privacidad"
+                    ><input
+                      type="checkbox"
+                      name="privacidad"
+                      id="privacidad"
+                      class="privacidad"
+                      value="privacidad"
+                      required
+                    />Acepto la política de privacidad</label
+                  >
+                </div>
+
+                <button class="btn btn-round btn--form">Enviar</button>
+              </form>
             </div>
 
-            <button class="btn btn-round btn--form">Enviar</button>
-
-            </form>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Mujer al teléfono"
+            ></div>
           </div>
-
-          <div
-            class="cta-img-box"
-            role="img"
-            aria-label="Mujer al teléfono"
-          ></div>
         </div>
       </section>
     </main>

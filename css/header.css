@@ -105,3 +105,16 @@
 }
 
 
+/* 1607px / 16px = 100em */
+@media (max-width: 101em) {
+  .main-nav-link:link,
+  .main-nav-link:visited {
+ 
+    font-size: 2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  
+  }
+}
